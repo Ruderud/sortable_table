@@ -1,0 +1,12 @@
+{
+  "name": "wooah_5th",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8920 & npx json-server --watch ./data/data.json --port 4000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

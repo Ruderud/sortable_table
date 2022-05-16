@@ -1,0 +1,147 @@
+{
+  "data1": [
+    {
+      "email": "geunchulhwang@gmail.com",
+      "profile": {
+        "name": "황근출",
+        "birthday": "1972-06-12",
+        "address": "인천 연수역 북광장 해병대 전우애"
+      },
+      "score": 72,
+      "createdAt": "2022-05-16T18:05",
+      "updatedAt": "2022-05-16T18:05"
+    },
+    {
+      "email": "geunchulhwang@gmail.com",
+      "profile": {
+        "name": "잘못된황근출",
+        "deathday": "2222-06-12",
+        "address": "인1천 연2수3역 북4광5장 해6병9대 전1우1애"
+      },
+      "isOK": false,
+      "score": 72,
+      "createdAt": 1885
+    },
+    {
+      "email": "tonton@gmail.com",
+      "profile": {
+        "name": "톤톤정",
+        "birthday": "1972-10-03",
+        "address": "인천 연수역 북광장 해병대 전우애"
+      },
+      "score": 69,
+      "createdAt": "2022-05-16T18:05",
+      "updatedAt": "2022-05-16T18:05"
+    },
+    {
+      "email": "mumochil@gmail.com",
+      "profile": {
+        "name": "무모칠",
+        "birthday": "1972-10-03",
+        "address": "인천 연수역 북광장 해병대 전우애"
+      },
+      "score": 74,
+      "createdAt": "2022-05-16T18:05",
+      "updatedAt": "2022-05-16T18:05"
+    }
+  ],
+  "data2": [
+    {
+      "username": "황근출",
+      "scores": {
+        "html": 11,
+        "css": 22,
+        "javascript": 33,
+        "korean": 44,
+        "english": 55,
+        "math": 66
+      }
+    },
+    {
+      "username": "톤톤정",
+      "scores": {
+        "html": 42,
+        "css": 66,
+        "javascript": 22,
+        "korean": 92,
+        "english": 4,
+        "math": 1
+      }
+    },
+    {
+      "username": "무모칠",
+      "scores": {
+        "html": 99,
+        "css": 69,
+        "javascript": 47,
+        "korean": 74,
+        "english": 74,
+        "math": 82
+      }
+    },
+    {
+      "username": "쾌흥태",
+      "scores": {
+        "html": 44,
+        "css": 58,
+        "javascript": 82,
+        "korean": 85,
+        "english": 52,
+        "math": 52
+      }
+    },
+    {
+      "username": "마갈곤",
+      "scores": {
+        "html": 1,
+        "css": 99,
+        "javascript": 18,
+        "korean": 13,
+        "english": 62,
+        "math": 39
+      }
+    }
+  ],
+  "data3": [
+    {
+      "index": 1,
+      "nickname": "개짬찌",
+      "profile": {
+        "age": 25,
+        "remoteWorkLocation": "부산",
+        "position": "Assey"
+      },
+      "verified": false
+    },
+    {
+      "index": 2,
+      "nickname": "General suckDick-Jo",
+      "profile": {
+        "age": 33,
+        "remoteWorkLocation": "천안",
+        "position": "foreiner"
+      },
+      "verified": true
+    },
+    {
+      "index": 3,
+      "nickname": "1q2w3e4r!",
+      "profile": {
+        "age": 26,
+        "remoteWorkLocation": "광주",
+        "position": "tong-shin-byung"
+      },
+      "verified": "true"
+    },
+    {
+      "index": 4,
+      "nickname": "마철두",
+      "profile": {
+        "age": 29,
+        "remoteWorkLocation": "충남",
+        "position": "짜장급양병"
+      },
+      "verified": true
+    }
+  ]
+}
