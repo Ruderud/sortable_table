@@ -6,9 +6,15 @@ body {
 table {
   border-collapse: separate;
   border-spacing: 10px 5px;
+  margin: 10px 0 20px 0;
 }
 
 table thead th {
   color: rgba(0, 0, 0, 0.8);
   border-bottom: solid 2px rgba(0, 0, 0, 1);
+}
+
+input.filter__input {
+  margin: 10px;
+  width: 200px;
 }

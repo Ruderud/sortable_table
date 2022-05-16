@@ -14,8 +14,7 @@ const TABLE_HEAD_BY_DATATYPE = {
   data3: ["번호", "닉네임", "나이", "원격근무지", "포지션", "검증여부"],
 };
 
-export const DataGrid = ({ flattenData, dataType }) => {
-  const tableElement = document.createElement("table");
+export const DataGrid = ({ target, flattenData, dataType }) => {
   const tableHeadElement = document.createElement("thead");
   const tableBodyElement = document.createElement("tbody");
 
@@ -46,10 +45,8 @@ export const DataGrid = ({ flattenData, dataType }) => {
   renderTableHead();
   renderTableBody();
 
-  tableElement.appendChild(tableHeadElement);
-  tableElement.appendChild(tableBodyElement);
-
-  return tableElement;
+  target.appendChild(tableHeadElement);
+  target.appendChild(tableBodyElement);
 };
 
 export default DataGrid;
