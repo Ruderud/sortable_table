@@ -1,3 +1,34 @@
+export const DATAFLOW_BY_TYPE = {
+  data1: [
+    "email",
+    "name",
+    "birthday",
+    "address",
+    "score",
+    "createdAt",
+    "updatedAt",
+  ],
+  data2: [
+    "username",
+    "total",
+    "average",
+    "html",
+    "css",
+    "javascript",
+    "korean",
+    "english",
+    "math",
+  ],
+  data3: [
+    "index",
+    "nickname",
+    "age",
+    "remoteWorkLocation",
+    "position",
+    "verified",
+  ],
+};
+
 class Data1Form {
   constructor({ email, profile, score, createdAt, updatedAt }) {
     this.email = email;
@@ -16,15 +47,6 @@ class Data1Form {
       score: this.score,
       createdAt: this.createdAt,
       updatedAt: this.updatedAt,
-      dataFlow: [
-        "email",
-        "name",
-        "birthday",
-        "address",
-        "score",
-        "createdAt",
-        "updatedAt",
-      ],
     };
     return defaultForm;
   }
@@ -55,17 +77,6 @@ class Data2Form {
       korean: this.scores.korean,
       english: this.scores.english,
       math: this.scores.math,
-      dataFlow: [
-        "username",
-        "total",
-        "average",
-        "html",
-        "css",
-        "javascript",
-        "korean",
-        "english",
-        "math",
-      ],
     };
     return defaultForm;
   }
@@ -103,14 +114,6 @@ class Data3Form {
       remoteWorkLocation: this.profile.remoteWorkLocation,
       position: this.profile.position,
       verified: this.checkVerified(),
-      dataFlow: [
-        "index",
-        "nickname",
-        "age",
-        "remoteWorkLocation",
-        "position",
-        "verified",
-      ],
     };
     return defaultForm;
   }
@@ -154,3 +157,5 @@ export const flattenRawData = ({ rawData, dataType }) => {
 
   return flattenData;
 };
+
+export default flattenRawData;

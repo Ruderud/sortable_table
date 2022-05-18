@@ -15,3 +15,5 @@ export const getData = async ({ query }) => {
     alert("json db서버 에러발생");
   }
 };
+
+export default getData;
