@@ -134,7 +134,7 @@ export default class App extends Component {
         filteredDataArrays[dataType] = dataArray;
         return;
       }
-      //필터링 키워드 O 또는, 정렬 O일때 원본 반환
+      //필터링 키워드 O 또는, 정렬 O일때 필터링,정렬배열반환
       if (filterKeyword !== "" || filterColumn !== undefined) {
         const filteredByColumn = dataArray.sort((a, b) => {
           if (
